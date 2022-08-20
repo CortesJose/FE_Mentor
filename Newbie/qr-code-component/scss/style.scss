@@ -1,0 +1,73 @@
+@import 'root';
+
+ body {
+     background-color: $Light-gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 100vh;
+     font-size: 15px;
+     font-family: $Outfit;
+ }
+
+ .main {
+     background-color: $White;
+     border-radius: 12px;
+     height: 497px;
+     width: 321px;
+     margin-bottom: 10px;
+ }
+
+ //=====Section one=====
+ .section-one {
+     border-radius: 12px;
+     height: 287px;
+     width: 287px;
+     margin: 14px auto;
+     overflow: hidden;
+
+     &__img-qr {
+         width: 100%;
+         //overflow: hidden;
+     }
+ }
+
+ //=====Section two =====
+ .section-two {
+     height: 131px;
+     width: 287px;
+     margin: 30px auto 37px;
+
+     &__title {
+         line-height: 26px;
+         text-align: center;
+         color: $Dark-blue;
+     }
+
+     &__paragrahp {
+         font-weight: 400;
+         font-size: 1.1em;
+         color: $Grayish-blue;
+         text-align: center;
+         margin-top: 10px;
+     }
+ }
+
+ //=====Footer=====
+ .attribution {
+     font-size: 14px;
+     text-align: center;
+
+     &__a {
+         color: hsl(228, 45%, 44%);
+         cursor: pointer;
+
+         &--code-by:hover {
+            color: hsl(200, 45%, 44%);
+         }
+         &--mentor:hover {
+            color: hsl(150, 45%, 44%);
+         }
+     }
+ }

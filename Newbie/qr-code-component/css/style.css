@@ -1,0 +1,64 @@
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 12px;
+  height: 497px;
+  width: 321px;
+  margin-bottom: 10px;
+}
+
+.section-one {
+  border-radius: 12px;
+  height: 287px;
+  width: 287px;
+  margin: 14px auto;
+  overflow: hidden;
+}
+.section-one__img-qr {
+  width: 100%;
+}
+
+.section-two {
+  height: 131px;
+  width: 287px;
+  margin: 30px auto 37px;
+}
+.section-two__title {
+  line-height: 26px;
+  text-align: center;
+  color: hsl(218deg, 44%, 22%);
+}
+.section-two__paragrahp {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: hsl(220deg, 15%, 55%);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+.attribution__a {
+  color: hsl(228deg, 45%, 44%);
+  cursor: pointer;
+}
+.attribution__a--code-by:hover {
+  color: hsl(200deg, 45%, 44%);
+}
+.attribution__a--mentor:hover {
+  color: hsl(150deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */

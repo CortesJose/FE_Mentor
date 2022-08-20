@@ -1,0 +1,117 @@
+@use 'root';
+
+body {
+    background-color: var(--Main-dark-blue);
+    font-size: 18px;
+    font-family: var(--Outfit);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--Card-dark-blue);
+    border-radius: 12px;
+    height: 544px;
+    width: 328px;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+// =====Section-one=====
+
+.section-one {
+    width: 278px;
+    height: 278px;
+    margin: 25px auto;
+    border-radius: 12px;
+    overflow: hidden;
+
+    &__img {
+        width: 100%;
+    }
+}
+
+// =====Section-two=====
+
+.section-two {
+    width: 278px;
+    height: 140px;
+    margin: auto;
+    border-bottom: 1px solid var(--Line-dark-blue);
+
+    .article-one {
+        height: 80px;
+
+        &__title {
+            color: var(--White);
+            line-height: 16px;
+            font-weight: 600;
+        }
+
+        &__description {
+            color: var(--Soft-blue);
+            font-weight: 300;
+            margin-top: 15px;
+        }
+    }
+
+    .article-two {
+        margin-top: 20px;
+        display: flex;
+        align-items: end;
+        justify-content: flex-start;
+        gap: 5px;
+
+        &__icon--eth {
+            margin-bottom: 3px;
+        }
+
+        &__icon--clock {
+            margin-left: 59px;
+            margin-bottom: 3px;
+        }
+
+        &__value--eth {
+            color: var(--Cyan);
+            font-weight: 400;
+        }
+
+        &__value--days {
+            color: var(--Soft-blue);
+            margin-left: 5px;
+            font-weight: 400;
+        }
+    }
+}
+
+.section-thre {
+    width: 278px;
+    height: 43px;
+    display: flex;
+    margin: 15px auto;
+    gap: 15px;
+    font-weight: 300;
+    
+    &__creator {
+        border: 1px solid var(--White);
+        border-radius: 50%;
+    }
+
+    &__info {
+        color: var(--Soft-blue);
+        align-self: center;
+
+        &--span {
+            color: var(--White);
+        }
+    }
+}
+
+//=====Media Querie=====
+@media (min-width: 620px) {
+
+    .card {
+        margin-top: 68px;
+    }
+}
