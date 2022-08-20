@@ -1,0 +1,25 @@
+@import 'mixins/reset.scss';
+@import 'root';
+
+* {
+    @include reset;
+}
+
+//+++++Cards+++++
+
+// .card {
+//     border: 1px solid blue;
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+//     padding: 20px;
+// }
+
+//=====footer=====
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
