@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(225deg, 100%, 94%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card {
+  background-color: hsl(225deg, 100%, 98%);
+  height: 567px;
+  max-width: 327px;
+  border-radius: 14px;
+}
+
+.section-image {
+  height: 160px;
+  border-radius: 14px 14px 0 0;
+  overflow: hidden;
+}
+.section-image__img {
+  width: 100%;
+}
+
+.section-order {
+  height: 160px;
+  text-align: center;
+}
+.section-order__title {
+  margin-top: 22px;
+  font-weight: 900;
+}
+.section-order__description {
+  margin: 22px;
+  font-weight: 700;
+  color: hsl(224deg, 23%, 55%);
+  line-height: 26px;
+}
+
+.article-plan {
+  background-color: hsl(225deg, 100%, 96%);
+  border-radius: 14px;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  height: 81px;
+  width: 278px;
+}
+.article-plan__icon {
+  margin-left: 10px;
+}
+.article-plan__aplan {
+  text-align: center;
+  line-height: 25px;
+  font-weight: 700;
+}
+.article-plan__span {
+  color: hsl(224deg, 23%, 55%);
+}
+.article-plan__change {
+  margin-right: 10px;
+  font-weight: 700;
+}
+.article-plan__change:hover {
+  text-decoration: none;
+}
+
+.article-click {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.article-click__button {
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 14px;
+  border-style: none;
+  height: 50px;
+  width: 278px;
+  color: hsl(255deg, 100%, 100%);
+  font-size: 1em;
+  font-weight: 900;
+  box-shadow: 2px 2px 10px hsl(245deg, 75%, 52%);
+}
+.article-click__button:hover {
+  background-color: hsl(245deg, 83%, 68%);
+  cursor: pointer;
+}
+.article-click__cancel {
+  text-decoration: none;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 900;
+  margin-top: 15px;
+}
+.article-click__cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+}
+
+.attribution {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.attribution__a {
+  color: hsl(228deg, 45%, 44%);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
