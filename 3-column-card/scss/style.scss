@@ -14,20 +14,19 @@ body {
 }
 
 .container {
-    border: 1px solid red;
+    // border: 1px solid red;
     border-radius: 12px 12px 0 0;
     width: 327px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     margin: 88px auto;
-    gap: 20px;
-    overflow: hidden;
 }
 
 //+++++Cards+++++
 
 .sedan {
     background-color: $Bright-orange;
+    border-radius: 12px 12px 0 0;
     height: 440px;
     width: 325px;
     padding: 48px;
@@ -58,6 +57,101 @@ body {
         font-weight: 400;
         height: 47px;
         width: 144px;
+        margin-top: 30px;
+
+        &:hover {
+            border: 2px solid $Very-light-gray;
+            background-color: $Bright-orange;
+            color: $Very-light-gray;
+            cursor: pointer;
+        }
+    }
+}
+
+.suv {
+    background-color: $Dark-cyan;
+    height: 440px;
+    width: 325px;
+    padding: 48px;
+
+    &__title {
+        font-family: $Big-Shoulders-Display;
+        color: $Very-light-gray;
+        font-weight: 700;
+        font-size: 2.13em;
+        margin: 25px 0;
+    }
+
+    &__description {
+        font-family: $Lexend-deca;
+        color: $Transparent-white;
+        height: 117px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border-radius: 25px;
+        background-color: $Very-light-gray;
+        border-style: none;
+        color: $Dark-cyan;
+        font-family: $Lexend-deca;
+        font-weight: 400;
+        height: 47px;
+        width: 144px;
+        margin-top: 30px;
+
+        &:hover {
+            border: 2px solid $Very-light-gray;
+            background-color: $Dark-cyan;
+            color: $Very-light-gray;
+            cursor: pointer;
+        }
+    }
+}
+
+.luxury {
+    background-color: $Very-dark-cyan;
+    border-radius: 0 0 12px 12px;
+    height: 440px;
+    width: 325px;
+    padding: 48px;
+
+    &__title {
+        font-family: $Big-Shoulders-Display;
+        color: $Very-light-gray;
+        font-weight: 700;
+        font-size: 2.13em;
+        margin: 25px 0;
+    }
+
+    &__description {
+        font-family: $Lexend-deca;
+        color: $Transparent-white;
+        height: 117px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border-radius: 25px;
+        background-color: $Very-light-gray;
+        border-style: none;
+        color: $Very-dark-cyan;
+        font-family: $Lexend-deca;
+        font-weight: 400;
+        height: 47px;
+        width: 144px;
+        margin-top: 30px;
+
+        &:hover {
+            border: 2px solid $Very-light-gray;
+            background-color: $Very-dark-cyan;
+            color: $Very-light-gray;
+            cursor: pointer;
+        }
     }
 }
 
