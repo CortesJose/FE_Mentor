@@ -5,14 +5,61 @@
     @include reset;
 }
 
+body {
+    font-size: $f-size;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid red;
+    border-radius: 12px 12px 0 0;
+    width: 327px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    margin: 88px auto;
+    gap: 20px;
+    overflow: hidden;
+}
+
 //+++++Cards+++++
 
-// .card {
-//     border: 1px solid blue;
-//     display: grid;
-//     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-//     padding: 20px;
-// }
+.sedan {
+    background-color: $Bright-orange;
+    height: 440px;
+    width: 325px;
+    padding: 48px;
+
+    &__title {
+        font-family: $Big-Shoulders-Display;
+        color: $Very-light-gray;
+        font-weight: 700;
+        font-size: 2.13em;
+        margin: 25px 0;
+    }
+
+    &__description {
+        font-family: $Lexend-deca;
+        color: $Transparent-white;
+        height: 117px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border-radius: 25px;
+        background-color: $Very-light-gray;
+        border-style: none;
+        color: $Bright-orange;
+        font-family: $Lexend-deca;
+        font-weight: 400;
+        height: 47px;
+        width: 144px;
+    }
+}
 
 //=====footer=====
 .attribution {
