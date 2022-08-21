@@ -13,18 +13,16 @@ body {
 }
 
 .container {
-  border: 1px solid red;
   border-radius: 12px 12px 0 0;
   width: 327px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   margin: 88px auto;
-  gap: 20px;
-  overflow: hidden;
 }
 
 .sedan {
   background-color: hsl(31deg, 77%, 52%);
+  border-radius: 12px 12px 0 0;
   height: 440px;
   width: 325px;
   padding: 48px;
@@ -53,6 +51,92 @@ body {
   font-weight: 400;
   height: 47px;
   width: 144px;
+  margin-top: 30px;
+}
+.sedan__button:hover {
+  border: 2px solid hsl(0deg, 0%, 95%);
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
+
+.suv {
+  background-color: hsl(184deg, 100%, 22%);
+  height: 440px;
+  width: 325px;
+  padding: 48px;
+}
+.suv__title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  font-weight: 700;
+  font-size: 2.13em;
+  margin: 25px 0;
+}
+.suv__description {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  height: 117px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.suv__button {
+  border-radius: 25px;
+  background-color: hsl(0deg, 0%, 95%);
+  border-style: none;
+  color: hsl(184deg, 100%, 22%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  height: 47px;
+  width: 144px;
+  margin-top: 30px;
+}
+.suv__button:hover {
+  border: 2px solid hsl(0deg, 0%, 95%);
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
+
+.luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 12px 12px;
+  height: 440px;
+  width: 325px;
+  padding: 48px;
+}
+.luxury__title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
+  font-weight: 700;
+  font-size: 2.13em;
+  margin: 25px 0;
+}
+.luxury__description {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  height: 117px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.luxury__button {
+  border-radius: 25px;
+  background-color: hsl(0deg, 0%, 95%);
+  border-style: none;
+  color: hsl(179deg, 100%, 13%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  height: 47px;
+  width: 144px;
+  margin-top: 30px;
+}
+.luxury__button:hover {
+  border: 2px solid hsl(0deg, 0%, 95%);
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(0deg, 0%, 95%);
+  cursor: pointer;
 }
 
 .attribution {
