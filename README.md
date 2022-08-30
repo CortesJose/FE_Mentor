@@ -1,2 +1,2 @@
 # FE_Mentor
-Challenges from FrotEnd Mentor
+- Challenges from FrotEnd Mentor
