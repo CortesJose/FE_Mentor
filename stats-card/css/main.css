@@ -4,7 +4,84 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: hsl(244deg, 38%, 16%);
+  font-weight: 400;
+  border-radius: 12px;
+  max-height: 775px;
+  max-width: 324px;
+  overflow: hidden;
+}
+
+.hero {
+  height: 239px;
+  width: 100%;
+}
+.hero__img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  text-align: center;
+  font-weight: 700;
+}
+.info__title {
+  color: hsl(0deg, 0%, 100%);
+  height: 96px;
+  width: 264px;
+  font-size: 1.75em;
+  margin: 25px auto 25px auto;
+}
+.info__title--span {
+  color: hsl(277deg, 64%, 61%);
+}
+.info__description {
+  width: 275px;
+  margin: 0 auto 0 auto;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.stats {
+  width: 80px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 auto 0 auto;
+}
+.stats__values {
+  color: hsl(0deg, 0%, 100%);
+  text-transform: uppercase;
+}
+.stats__values--companie {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 0.66rem;
+}
+.stats__values--template {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 0.66rem;
+}
+.stats__values--querie {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-weight: 400;
+  font-size: 0.66rem;
+}
+
 .attribution {
+  color: hsl(0deg, 0%, 100%);
   font-size: 11px;
   text-align: center;
 }
