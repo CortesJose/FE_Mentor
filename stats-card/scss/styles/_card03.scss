@@ -1,0 +1,88 @@
+@import 'variables02';
+
+body {
+    background-color: $Very-dark-blue;
+    font-size: $f-size;
+    font-family: $Lexend-Deca;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: $Dark-desaturated-blue;
+    font-weight: 400;
+    border-radius: 12px;
+    max-height: 775px;
+    max-width: 324px;
+    overflow: hidden;
+}
+
+//=====Hero=====
+.hero {
+    height: 239px;
+    width: 100%;
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+//=====Info=====
+.info {
+    text-align: center;
+    font-weight: 700;
+
+    &__title {
+        color: $White;
+        height: 96px;
+        width: 264px;
+        font-size: 1.75em;
+        margin: 25px auto 25px auto;
+
+        &--span {
+            color: $Soft-violet;
+        }
+    }
+
+    &__description {
+        width: 275px;
+        margin: 0 auto 0 auto;
+        color: $Main-transparent-white;
+    }
+}
+
+//=====Stats=====
+.stats {
+    width: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 auto 0 auto;
+
+    &__values {
+        color: $White;
+        text-transform: uppercase;
+
+        &--companie{
+            color: $Stat-transparent-white;
+            font-weight: 400;
+            font-size: 0.66rem;
+        }
+
+        &--template{
+            color: $Stat-transparent-white;
+            font-weight: 400;
+            font-size: 0.66rem;
+        }
+
+        &--querie{
+            color: $Stat-transparent-white;
+            font-weight: 400;
+            font-size: 0.66rem;
+        }
+    }
+}
