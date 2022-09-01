@@ -16,18 +16,22 @@ body {
     font-weight: 400;
     border-radius: 12px;
     max-height: 775px;
-    max-width: 324px;
+    min-width: 328px;
     overflow: hidden;
 }
 
 //=====Hero=====
 .hero {
-    height: 239px;
-    width: 100%;
+    background-image: url(/images/image-header-mobile.jpg);
+    background-size: cover;
+    height: 240px;
+    max-width: 100%;
 
-    &__img {
-        width: 100%;
+    &__layer {
+        background-color: $Soft-violet;
+        opacity: 0.4;
         height: 100%;
+        width: 100%;
     }
 }
 
@@ -67,19 +71,19 @@ body {
         color: $White;
         text-transform: uppercase;
 
-        &--companie{
+        &--companie {
             color: $Stat-transparent-white;
             font-weight: 400;
             font-size: 0.66rem;
         }
 
-        &--template{
+        &--template {
             color: $Stat-transparent-white;
             font-weight: 400;
             font-size: 0.66rem;
         }
 
-        &--querie{
+        &--querie {
             color: $Stat-transparent-white;
             font-weight: 400;
             font-size: 0.66rem;
