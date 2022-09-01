@@ -20,17 +20,21 @@ body {
   font-weight: 400;
   border-radius: 12px;
   max-height: 775px;
-  max-width: 324px;
+  min-width: 328px;
   overflow: hidden;
 }
 
 .hero {
-  height: 239px;
-  width: 100%;
+  background-image: url(/images/image-header-mobile.jpg);
+  background-size: cover;
+  height: 240px;
+  max-width: 100%;
 }
-.hero__img {
-  width: 100%;
+.hero__layer {
+  background-color: hsl(277deg, 64%, 61%);
+  opacity: 0.4;
   height: 100%;
+  width: 100%;
 }
 
 .info {
