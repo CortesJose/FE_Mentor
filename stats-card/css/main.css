@@ -94,4 +94,18 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
+@media screen and (min-width: 760px) {
+  .card {
+    min-width: 730px;
+    max-height: 328px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero {
+    background-image: url(/images/image-header-desktop.jpg);
+    width: 50%;
+    height: 100%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
