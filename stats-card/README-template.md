@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/CortesJose/FE_Mentor/tree/master/stats-card)
-- Live Site URL: [Add live site URL here](https://card-stats-cd64f7.netlify.app/)
+- Solution URL:(https://github.com/CortesJose/FE_Mentor/tree/master/stats-card)
+- Live Site URL:(https://card-stats-cd64f7.netlify.app/)
 
 ## My process
 
