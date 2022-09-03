@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screeshots/screenshot-mobile.jpg)
-![](./screeshots/screenshot-desktop.png)
+![]./screeshots/screenshot-mobile.jpg
+![]./screeshots/screenshot-desktop.png
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
