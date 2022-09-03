@@ -14,7 +14,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -44,8 +43,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 ```css
@@ -64,10 +61,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [resource 1](https://developer.mozilla.org/es/docs/Web) 
-- [resource 2](https://css-tricks.com/guides/) 
+- [Mozilla](https://developer.mozilla.org/es/docs/Web) 
+- [Tricks](https://css-tricks.com/guides/) 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/CortesJose)
-- Twitter - [@yourusername](https://www.twitter.com/jos_car01)
+- Frontend Mentor - [CortesJose](https://www.frontendmentor.io/profile/CortesJose)
+- Twitter - [jos_car01](https://www.twitter.com/jos_car01)
