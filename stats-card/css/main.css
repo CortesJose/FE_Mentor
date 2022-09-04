@@ -18,7 +18,7 @@ body {
 .card {
   background-color: hsl(244deg, 38%, 16%);
   font-weight: 400;
-  border-radius: 12px;
+  border-radius: 5px;
   max-height: 775px;
   min-width: 328px;
   overflow: hidden;
@@ -29,12 +29,8 @@ body {
   background-size: cover;
   height: 240px;
   max-width: 100%;
-}
-.hero__layer {
-  background-color: hsl(277deg, 64%, 61%);
+  mix-blend-mode: luminosity;
   opacity: 0.4;
-  height: 100%;
-  width: 100%;
 }
 
 .info {
