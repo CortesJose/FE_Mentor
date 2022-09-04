@@ -14,7 +14,7 @@ body {
 .card {
     background-color: $Dark-desaturated-blue;
     font-weight: 400;
-    border-radius: 12px;
+    border-radius: 5px;
     max-height: 775px;
     min-width: 328px;
     overflow: hidden;
@@ -26,13 +26,8 @@ body {
     background-size: cover;
     height: 240px;
     max-width: 100%;
-
-    &__layer {
-        background-color: $Soft-violet;
-        opacity: 0.4;
-        height: 100%;
-        width: 100%;
-    }
+    mix-blend-mode: luminosity;
+    opacity: 0.4;
 }
 
 //=====Info=====
