@@ -10,19 +10,18 @@ body {
 }
 
 .card {
-    border: 1px solid red;
-    border-radius: 5px;
     max-width: 310px;
     grid-template-rows: repeat(auto-fill, minmax(265px, 1fr));
     margin: 74px 0;
 }
 
-//--------------------------------------------------------------
+//------------------Community----------------------------------
 .community {
     background-color: $Light;
     width: 100%;
     height: 265px;
     padding: 25px 25px;
+    border-radius: 10px 10px 0 0;
 
     &__title {
         font-weight: 700;
@@ -30,15 +29,97 @@ body {
         color: $Cyan;
         margin-bottom: 15px;
     }
+
     &__guarantee {
         font-weight: 700;
         color: $Bright-Yellow;
         margin-bottom: 15px;
     }
+
     &__description {
         color: $Grayish-Blue;
         font-size: 0.85rem;
         line-height: 24px;
         height: 90px;
     }
+}
+
+//------------------Subscription----------------------------------
+.subscription {
+    @extend .community;
+    background-color: $Cyan;
+    color: $Light;
+    border-radius: 0 0 0 0;
+
+    &__title {
+        @extend .community__title;
+        color: $Light;
+    }
+
+    &__price {
+        display: flex;
+        align-items: center;
+        color: $Light-Gray;
+        gap: 10px;
+
+        &--month {
+            color: $Light;
+            font-size: 2.7rem;
+            font-weight: 700;
+        }
+    }
+
+    &__description {
+        margin-bottom: 31px;
+    }
+
+    &__btn {
+        background-color: $Bright-Yellow;
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: 0 1px 3px 2px $B-shadow;
+        color: $Light;
+        font-weight: 700;
+        width: 260px;
+        height: 48px;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: $hover-btn;
+            transition: 0.2s;
+        }
+
+        &:active {
+            box-shadow: 0 1px 1px 2px $Cyan;
+        }
+    }
+}
+
+//------------------Why-Us----------------------------------
+.why-us {
+    @extend .community;
+    background-color: $Cyan-Light;
+    border-radius: 0 0 10px 10px;
+
+    &__title {
+        @extend .community__title;
+        color: $Light;
+    }
+
+    &__description {
+        color: $Light-Gray;
+        height: 167px;
+        width: 195px;
+        line-height: 24px;
+    }
+}
+
+//------------------Footer----------------------------------
+.attribution {
+    display: flex;
+    height: 54px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
