@@ -72,20 +72,19 @@ body {
 }
 
 .card {
-  border: 1px solid red;
-  border-radius: 5px;
   max-width: 310px;
   grid-template-rows: repeat(auto-fill, minmax(265px, 1fr));
   margin: 74px 0;
 }
 
-.community {
+.community, .why-us, .subscription {
   background-color: hsl(0deg, 0%, 100%);
   width: 100%;
   height: 265px;
   padding: 25px 25px;
+  border-radius: 10px 10px 0 0;
 }
-.community__title {
+.community__title, .why-us__title, .subscription__title {
   font-weight: 700;
   font-size: 1.3rem;
   color: hsl(179deg, 62%, 43%);
@@ -101,6 +100,70 @@ body {
   font-size: 0.85rem;
   line-height: 24px;
   height: 90px;
+}
+
+.subscription {
+  background-color: hsl(179deg, 62%, 43%);
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 0 0 0 0;
+}
+.subscription__title {
+  color: hsl(0deg, 0%, 100%);
+}
+.subscription__price {
+  display: flex;
+  align-items: center;
+  color: hsl(204deg, 43%, 93%);
+  gap: 10px;
+}
+.subscription__price--month {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.subscription__description {
+  margin-bottom: 31px;
+}
+.subscription__btn {
+  background-color: hsl(71deg, 73%, 54%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 1px 3px 2px hsl(136deg, 39%, 45%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  width: 260px;
+  height: 48px;
+  transition: 0.2s;
+}
+.subscription__btn:hover {
+  background-color: hsl(71deg, 60%, 49%);
+  transition: 0.2s;
+}
+.subscription__btn:active {
+  box-shadow: 0 1px 1px 2px hsl(179deg, 62%, 43%);
+}
+
+.why-us {
+  background-color: hsl(179deg, 47%, 52%);
+  border-radius: 0 0 10px 10px;
+}
+.why-us__title {
+  color: hsl(0deg, 0%, 100%);
+}
+.why-us__description {
+  color: hsl(204deg, 43%, 93%);
+  height: 167px;
+  width: 195px;
+  line-height: 24px;
+}
+
+.attribution {
+  display: flex;
+  height: 54px;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
