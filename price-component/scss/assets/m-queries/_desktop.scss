@@ -1,0 +1,53 @@
+@media screen and (min-width: 760px) {
+    .card {
+        width: 636px;
+        height: 476px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .community {
+        grid-column: 1/3;
+        line-height: 27px;
+        margin-top: 30px;
+        padding: 35px;
+
+        &__title {
+            font-size: 1.45em;
+        }
+
+        &__guarantee {
+            font-size: 1.1em;
+            margin-top: 18px;
+        }
+
+        &__description {
+            font-size: 1em;
+            line-height: 27px;
+            margin-top: 18px;
+        }
+    }
+
+    .subscription {
+        padding: 35px;
+        border-bottom-left-radius: 10px;
+
+        &__title {
+            font-size: 1.3em;
+        }
+
+        &__description {
+            margin-bottom: 18px;
+            font-size: 0.98em;
+            width: 235px;
+        }
+
+        &__btn {
+            //margin-top: -9px;
+            width: 234px;
+        }
+    }
+
+    .why-us {
+        border-bottom-left-radius: 0;
+    }
+}
