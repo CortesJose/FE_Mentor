@@ -1,5 +1,37 @@
 @import 'reset';
+@import 'variables';
 
 * {
     @include reset;
+}
+
+body {
+    font-size: $Body-Size;
+    display: grid;
+    grid-template-row:
+        1fr 1fr 1fr;
+    justify-items: center;
+    gap: 48px;
+}
+
+//+++++header+++++
+header {
+    border: 1px solid blue;
+    width: $W;
+    height: 214px;
+    margin-top: 80px;
+}
+
+//+++++stars+++++
+.stars-container {
+    border: 1px solid red;
+    width: $W;
+    height: 266px;
+}
+
+//+++++cards+++++
+.cards {
+    border: 1px solid green;
+    width: $W;
+    margin-bottom: 80px;
 }
