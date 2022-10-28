@@ -15,23 +15,51 @@ body {
 }
 
 //+++++header+++++
-header {
-    border: 1px solid blue;
+.header {
     width: $W;
     height: 214px;
     margin-top: 80px;
+
+    &__title {
+        width: 238px;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $Very-Dark-Magenta;
+        text-align: center;
+        margin: 0 48px;
+    }
+
+    &__info {
+        margin-top: 17px;
+        font-size: 1.15rem;
+        text-align: center;
+        color: $Dark-Grayish-Magenta;
+    }
 }
 
 //+++++stars+++++
-.stars-container {
-    border: 1px solid red;
+.container {
+    display: flex;
+    flex-direction: column;
     width: $W;
     height: 266px;
+    gap: 16px;
+
+    &__stars {
+        background-color: $Light-Grayish-Magenta;
+        border-radius: 12px;
+        height: 78px;
+        font-size: 1.1rem;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 25px;
+
+    }
 }
 
 //+++++cards+++++
 .cards {
-    border: 1px solid green;
+    background:  green;
     width: $W;
     margin-bottom: 80px;
 }
