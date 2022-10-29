@@ -41,6 +41,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    color: $Dark-Grayish-Magenta;
     width: $W;
     height: 266px;
     gap: 16px;
@@ -59,7 +60,47 @@ body {
 
 //+++++cards+++++
 .cards {
-    background:  green;
+    display: flex;
+    flex-direction: column;
+
     width: $W;
-    margin-bottom: 80px;
+    color: $White;
+    font-size: 1rem;
+    font-weight: 700;
+
+    &__article {
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+
+        background-color: $Very-Dark-Magenta;
+        border-radius: 12px;
+        height: 247px;
+
+        padding: 40px 31px;
+        margin-bottom: 18px;
+
+        .icon {
+            border-radius: 50%;
+            width: 50px;
+            margin-right: 20px;
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+        }
+
+        .name {
+            grid-column: 2 / 3;
+        }
+
+        .status {
+            color: $Soft-Pink;
+            grid-row: 2 / 3;
+        }
+
+        .info {
+            line-height: 20px;
+            grid-column: 1 / 3;
+
+            margin-top: 20px;
+        }
+    }
 }
