@@ -48,7 +48,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 18px;
 
     &__stars {
         background-color: $Light-Grayish-Magenta;
@@ -66,9 +66,9 @@ body {
 
 //+++++cards+++++
 .cards {
-    margin: 0 25px;
     display: flex;
     flex-direction: column;
+    gap: 18px;
 
     color: $White;
     font-size: 1rem;
@@ -83,7 +83,8 @@ body {
         height: 247px;
 
         padding: 40px 31px;
-        margin-bottom: 18px;
+        margin: 0 25px;
+        //margin-bottom: 18px;
 
         .icon {
             border-radius: 50%;
@@ -113,6 +114,14 @@ body {
 
 //+++++media+++++
 @media screen and (min-width: 376px) {
+    body {
+        background-image:
+            url(./public/bg-pattern-top-desktop.svg),
+            url(./public/bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+
     .header {
 
         &__title {
@@ -131,18 +140,6 @@ body {
             gap: 5px;
 
             padding: 0 35px 0 20px;
-
-            &--start {
-                align-self: flex-start;
-            }
-
-            &--center {
-                align-self: center;
-            }
-
-            &--end {
-                align-self: flex-end;
-            }
         }
 
         h4 {
