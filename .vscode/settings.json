@@ -1,0 +1,7 @@
+{
+    "astro.trace.server": "verbose",
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
